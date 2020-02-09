@@ -1,0 +1,81 @@
+/* RGB(23,42,69) RGB(101,255,218) */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.font {
+  color: rgb(101, 255, 218);
+  font-family: "Share Tech Mono", monospace;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(10, 25, 47);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 50px;
+}
+
+.btn {
+  border: 1px solid rgb(101, 255, 218);
+  background-color: rgb(10, 25, 47);
+  padding: 10px 20px;
+  font-size: 20px;
+  outline: none;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.stopwatch {
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+
+.board-grid {
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  border: 1px solid rgb(101, 255, 218);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  font-size: 20px;
+  transition: transform 2s;
+}
+
+.box:hover {
+  /* font-size: 30px; */
+  background-color: rgb(101, 255, 218);
+  color: rgb(10, 25, 47);
+}
+
+footer {
+  margin-top: 20px;
+}
+
+.github-logo {
+  color: rgb(101, 255, 218);
+}
