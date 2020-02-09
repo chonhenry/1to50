@@ -10,11 +10,6 @@ let current, timer;
 let button = document.getElementsByClassName("btn")[0];
 let box = document.getElementsByClassName("box");
 let time = document.querySelector(".stopwatch");
-let heading = document.querySelector("h1");
-
-heading.addEventListener("click", e => {
-  clearInterval(timer);
-});
 
 // function
 let addNumToBox = (i, arr) => {
