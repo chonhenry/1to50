@@ -62,15 +62,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 4px;
+  margin: 5px;
   font-size: 20px;
-  transition: transform 2s;
+  transition: transform 0.2s;
 }
 
 .box:hover {
   /* font-size: 30px; */
   background-color: rgb(101, 255, 218);
   color: rgb(10, 25, 47);
+  transform: scale(1.2);
 }
 
 footer {
